@@ -1,0 +1,5 @@
+Manifest-Version: 0.0.1
+Source: src
+Main-Module: ExamplePlugin
+Main-Function: main
+Require-Libraries: |lib://rascal-lsp/|
