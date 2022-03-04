@@ -24,7 +24,7 @@ void main() {
     println("registering example language");
     registerLanguage(
         language(
-            pathConfig(),
+            getProjectPathConfig(|project://vscode-test|),
             "example",
             "example",
             "ExamplePlugin",
